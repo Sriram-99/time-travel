@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/page2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar" >
+        <div>
+            <img src="/images/map.png" alt="#">
+            <h1>Time&Travel</h1> 
+        </div>
+        <h3> <%=date %> </h3>
+    </div>
+
+    <div class="form" >
+        <form method="post" action="/">
+            <span>Show where is reachable from </span>
+            <input type="text" name="area" placeholder="enter your location" id="">
+            <span>width in</span>
+            <select class="select1" name="" id="">
+                <option value="1"> 0hr 05min</option>
+                <option value="2"> 0hr 10min</option>
+                <option value="3"> 0hr 15min</option>
+                <option value="4"> 0hr 20min</option>
+                <option value="5"> 0hr 25min</option>
+                <option value="6"> 0hr 30min</option>
+                <option value="7"> 0hr 35min</option>
+                <option value="8"> 0hr 40min</option>
+                <option value="9"> 0hr 45min</option>
+                <option value="10"> 0hr 50min</option>
+                <option value="11"> 0hr 55min</option>
+                <option value="12"> 1hr 00min</option>
+                <option value="13"> 1hr 10min</option>
+                <option value="14"> 1hr 15min</option>
+                <option value="15"> 1hr 20min</option>
+                <option value="16"> 1hr 25min</option>
+                <option value="17"> 1hr 30min</option>
+                <option value="18"> 1hr 35min</option>
+                <option value="19"> 1hr 40min</option>
+                <option value="20"> 1hr 45min</option>
+                <option value="21"> 1hr 50min</option>
+                <option value="22"> 1hr 55min</option>
+                <option value="23">2hr 00min</option>
+            </select> by 
+            <select class="select2" name="transport" id="">
+                <option value="Public Transport
+                "> public Transport
+            </option>
+                <option value="cycling"> Cycling</option>
+                <option value="Driving">Driving</option>
+                <option value="Walking">Walking</option>
+                <option value="Train">Train</option>
+            </select>
+            <button type="submit
+            " > Find </button>
+           
+        </form>
+    </div>
+    <div class="map">
+
+    </div>
+    
+
+</body>
+</html>
